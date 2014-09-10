@@ -4,5 +4,8 @@
     <string name="app_name">Sample</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="label_detect_charging">充電中</string>
+    <string name="label_detect_discharging">放電中</string>
+    <string name="label_detect_status_unknown">不明</string>
 
 </resources>

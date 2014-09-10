@@ -3,6 +3,29 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sample.MainActivity"
-    tools:ignore="MergeRootFrame" />
+    tools:context="co.jp.stone.activity.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+            <TextView
+        android:id="@+id/BatteryLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/BatteryCharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+        
+    </LinearLayout>
+
+</FrameLayout>
 
