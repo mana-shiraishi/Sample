@@ -1,19 +1,17 @@
 package co.jp.stone.activity;
 
-import co.jp.sample.R;
-import co.jp.stone.receiver.BatteryChangeReceiver;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBar;
-import android.support.v4.app.Fragment;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.os.Build;
+import co.jp.sample.R;
+import co.jp.stone.receiver.BatteryChangeReceiver;
 
 public class MainActivity extends ActionBarActivity {
 	BatteryChangeReceiver mBatteryChangeReceiver;
@@ -74,12 +72,12 @@ public class MainActivity extends ActionBarActivity {
         public PlaceholderFragment() {
         }
 
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
-        }
+//        @Override
+//        public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                Bundle savedInstanceState) {
+//            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+//            return rootView;
+//        }
     }
 
 }

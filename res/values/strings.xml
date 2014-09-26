@@ -7,5 +7,6 @@
     <string name="label_detect_charging">充電中</string>
     <string name="label_detect_discharging">放電中</string>
     <string name="label_detect_status_unknown">不明</string>
-
+    <string name="label_detect_fullbattery">満タン</string>
+    
 </resources>

@@ -1077,7 +1077,10 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int green=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
+        public static final int red=0x7f020059;
+        public static final int yellow=0x7f02005a;
     }
     public static final class id {
         public static final int BatteryCharge=0x7f05003e;
@@ -1248,6 +1251,7 @@ containing a value of this type.
         public static final int hello_world=0x7f0a000e;
         public static final int label_detect_charging=0x7f0a0010;
         public static final int label_detect_discharging=0x7f0a0011;
+        public static final int label_detect_fullbattery=0x7f0a0013;
         public static final int label_detect_status_unknown=0x7f0a0012;
     }
     public static final class style {
